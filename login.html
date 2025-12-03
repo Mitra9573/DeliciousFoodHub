@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login - Delicious Food Hub</title>
+    <link rel="icon" type="image/png" href="./food.png">
+
+    <style>
+        body{
+            margin:0;
+            padding:0;
+            background:#ffe0b2;
+            font-family: Arial, sans-serif;
+        }
+        nav{
+            background-color:#ff9800;
+            padding:15px;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+        }
+        nav .left-title{
+            font-size:28px;
+            color:white;
+        }
+        nav ul{
+            list-style:none;
+            display:flex;
+            gap:20px;
+        }
+        nav ul li a{
+            color:white;
+            text-decoration:none;
+            font-size:18px;
+        }
+
+        .login-box{
+            width:350px;
+            margin:80px auto;
+            padding:25px;
+            background:white;
+            border-radius:10px;
+            box-shadow:0px 4px 10px rgba(0,0,0,0.2);
+        }
+
+        h2{
+            text-align:center;
+            color:#7a1b89;
+        }
+
+        input{
+            width:100%;
+            padding:12px;
+            margin:10px 0;
+            border-radius:5px;
+            border:1px solid #999;
+        }
+
+        button{
+            width:100%;
+            padding:12px;
+            background:#7a1b89;
+            color:white;
+            font-size:18px;
+            border:none;
+            border-radius:5px;
+            cursor:pointer;
+        }
+
+        button:hover{
+            background:#5c1567;
+        }
+    </style>
+</head>
+
+<body>
+
+<nav>
+    <div class="left-title">Delicious Food Hub</div>
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="signup.html">Sign Up</a></li>
+    </ul>
+</nav>
+
+<div class="login-box">
+    <h2>Login</h2>
+    <form>
+        <input type="text" placeholder="Enter Username" required>
+        <input type="password" placeholder="Enter Password" required>
+        <button>Login</button>
+    </form>
+</div>
+
+</body>
+</html>
